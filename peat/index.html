@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="PEAT 사이트 입니다.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEAT</title>
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <link rel="icon" href="img/favicon/favicon_192x192.png" sizes="192x192">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/header_footer_btn.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="donate_btn">
+      <a href="donate.html">
+        <img src="img/common/donate_btn_fixed.png" alt="donate_btn_fixed" class="btn_fixed">
+        <img src="img/common/donate_btn_rotate.png" alt="donate_btn_rotate" class="btn_rotate">
+      </a>
+    </div><!-- //.donate_btn -->
+
+    <header>
+      <div class="header_wrap">
+        <h1><a href="index.html"><img src="./img/common/logo.png" alt="PEAT로고"></a></h1>
+        <nav class="ibm">
+          <ul class="gnb">
+            <li class=""><a href="about.html">단체소개</a></li>
+            <li><a href="animals.html">멸종위기동물</a></li>
+            <li><a href="donate.html">후원과 참여</a></li>
+            <li><a href="goods.html">굿즈샵</a></li>
+          </ul><!-- //.gnb -->
+        </nav>
+        <ul class="sub ibm">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">후원하기</a></li>
+        </ul>
+      </div><!-- //.sub -->
+    </header>
+
+    <section class="main_visual">
+      <img src="img/main/tit_txt.png" alt="tit_txt">
+      <video src="img/main/main_visual.mp4" autoplay loop muted></video>
+    </section><!-- //.main_visual -->
+
+    <section class="about">
+      <div class="peat_about">
+        <div class="container">
+          <h2>About PEAT</h2>
+          <div class="about_info">
+            <div class="img_box" data-aos="fade-right" data-aos-duration="900"><img src="img/main/about.png" alt="">
+            </div>
+            <div class="txt_box">
+              <!-- <strong class="mangoB">PEAT 설명</strong> -->
+              <p><strong>PEAT</strong>는 “Protecting Endangered Animals Together”의 약자로 멸종 위기 동물을 함께 보호하자는 의미를 가지고
+                있습니다.<br>우리는 과학적 접근과 협력을 통해 지속 가능한 환경을<br>조성하고, 생태계를 회복하는 데 주력하고 있습니다.
+              </p>
+            </div>
+          </div><!-- //.about_info -->
+        </div><!-- //.container -->
+      </div><!-- //.peat_about -->
+      <div class="peat_act">
+        <div class="container">
+          <h2>PEAT Act</h2>
+          <ul class="act_con">
+            <li class="act_con1 odd" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="img_box"><img src="img/main/act1.png" alt=""></div>
+              <div class="txt_box">
+                <span>2024 / 03 / 07</span>
+                <h3>나무 727 그루 심기</h3>
+                <p>PEAT 활동가 산림 지역에 방문<br>나무 727 그루를 심고 생태계 보존에 기여</p>
+              </div><!-- //.txt_box -->
+            <li class="act_con2 even" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="img_box"><img src="img/main/act2.png" alt=""></div>
+              <div class="txt_box">
+                <span>2024 / 06 / 17</span>
+                <h3>PEAT의 날 행사</h3>
+                <p>서울 광화문에서 PEAT의 날 행사 개최<br>플리마켓과 PEAT 퍼레이드 진행</p>
+              </div><!-- //.txt_box -->
+            <li class="act_con2 odd" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="img_box"><img src="img/main/act3.png" alt=""></div>
+              <div class="txt_box">
+                <span>2024 / 07 / 19</span>
+                <h3>멸종동물 보호 세미나</h3>
+                <p>멸종위기동물 보호 관련 학술 세미나 개최<br>멸종위기동물 보호 활동을 논의</p>
+              </div><!-- //.txt_box -->
+            </li><!-- //.act_con1 -->
+          </ul><!-- //.act_con -->
+        </div>
+      </div><!-- //.peat_act -->
+      <div class="illust" data-aos="fade-down" data-aos-duration="800">
+        <img src="img/main/illust.png" alt="peat animals illust">
+      </div>
+    </section><!-- //.about -->
+
+    <section class="animals">
+      <div class="container">
+        <h2>Endangered Animals</h2>
+        <div class="swiper animal_slide">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide sea_otter">
+              <img src="img/main/sea_otter.png" alt="sea_otter" class="sea_otter">
+              <div class="info">
+                <div class="info_tit">
+                  <strong>해달</strong>
+                  <p class="habitat">북태평양 해안 지역</p>
+                  <p class="number">약 1,000 ~ 2,000 마리</p>
+                </div><!-- //.info_tit -->
+                <div class="info_txt">
+                  <p>북태평양 해안 지역에 서식하는 해달은<br>해조 생태계과 해양 생태계를 지키는데에<br>큰 역할을 합니다.</p>
+                </div><!-- //.info_txt -->
+              </div><!-- //.info -->
+            </li>
+            <li class="swiper-slide red_panda">
+              <img src="img/main/red_panda.png" alt="red_panda" class="red_panda">
+              <div class="info">
+                <div class="info_tit">
+                  <strong>레서판다</strong>
+                  <p class="habitat">고산 지대의 대나무 숲</p>
+                  <p class="number">약 2,500 마리</p>
+                </div><!-- //.info_tit -->
+                <div class="info_txt">
+                  <p>고산 지대의 대나무 숲에 서식하는 레서판다는<br>생태적 영향으로 대나무 숲의 토양 생태계에<br>긍정적인
+                    영향을 미칩니다.</p>
+                </div><!-- //.info_txt -->
+              </div><!-- //.info -->
+            </li>
+            <li class="swiper-slide polar_bear">
+              <img src="img/main/polar_bear.png" alt="polar_bear" class="polar_bear">
+              <div class="info">
+                <div class="info_tit">
+                  <strong>북극곰</strong>
+                  <p class="habitat">북극해</p>
+                  <p class="number">약 26,000 마리</p>
+                </div><!-- //.info_tit -->
+                <div class="info_txt">
+                  <p>북극해에 서식하는 북극곰은<br>북극 생태계 기후 변화의 흐름을 이해하는 데<br>도움을 주고 균형을 유지하는데<br>중요한 역할을 합니다.</p>
+                </div><!-- //.info_txt -->
+              </div><!-- //.info -->
+            </li>
+            <li class="swiper-slide elephant">
+              <img src="img/main/elephant.png" alt="elephant" class="elephant">
+              <div class="info">
+                <div class="info_tit">
+                  <strong>둥근귀코끼리</strong>
+                  <p class="habitat">아프리카 열대우림</p>
+                  <p class="number">약 100,000 마리</p>
+                </div><!-- //.info_tit -->
+                <div class="info_txt">
+                  <p>아프리카 열대우림에 서식하는 둥근귀 코끼리는<br>씨앗을 퍼뜨려 토양에 영양분을 공급해<br>건강하고 다양한 생태계를 조성해 줍니다.</p>
+                </div><!-- //.info_txt -->
+              </div><!-- //.info -->
+            </li>
+          </ul><!-- //.swiper-wrapper -->
+          <div class="swiper-button-next swiper_btn"></div>
+          <div class="swiper-button-prev swiper_btn"></div>
+          <div class="swiper-pagination"></div>
+        </div><!-- //.animal_slide -->
+      </div>
+    </section><!-- //.animals -->
+
+    <section class="campaign_donation" id="campaign_donation">
+      <div class="container">
+        <h2>Campaign & Donation</h2>
+        <ul>
+          <li>
+            <div class="img_box"><img src="img/main/cd1.png" alt=""></div>
+            <div class="txt_box">
+              <span>우리의 도움으로 늘어난 개체 수</span>
+              <strong><span class="count1"></span><span class="plus">+</span> 마리</strong>
+              <p>여러분의 많은 도움 덕분에 모은 후원금으로 다양한 생태계 보존에 기여하여<br>멸종 위기 종의 개체 수가 약 600마리 증가하였습니다. </p>
+            </div>
+          </li>
+          <li>
+            <div class="img_box"><img src="img/main/cd2.png" alt=""></div>
+            <div class="txt_box">
+              <span>PEAT에서 심은 나무</span>
+              <strong><span class="count2"></span><span class="plus">+</span> 그루</strong>
+              <p>PEAT의 많은 활동가 분들이 여러 산림 지역에 방문하여<br>약 7300그루의 나무를 심고 야생 동물들의 서식지 보존에 기여하였습니다.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img_box"><img src="img/main/cd3.png" alt=""></div>
+            <div class="txt_box">
+              <span>PEAT와 함께 걸어가는 사람들</span>
+              <strong><span class="count3"></span><span class="plus">+</span> 명</strong>
+              <p>현재 약 14000명의 사람들이 PEAT와 함께<br>생태계 보존과 멸종 위기 동물들 보호에 힘을 기여하고 있습니다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section><!-- //.campaign_donation -->
+
+    <section class="goods">
+      <div class="container">
+        <h2>Goods</h2>
+        <div class="goods_list">
+          <ul class="tab_menu">
+            <li class="on">phone</li>
+            <li>clothes</li>
+            <li>etc</li>
+          </ul><!-- //.tab_menu -->
+          <ul class="tab_con" data-aos="fade-up" data-aos-duration="800">
+            <li class="phone on">
+              <ul>
+                <li class="big goods1">
+                  <div class="buy_btn"><a href="goods.html#case">buy now</a></div>
+                  <img src="img/main/goods1.png" alt="goods1">
+                  <div class="info">
+                    <p class="tit">폰케이스</p>
+                    <p class="price">14,000원</p>
+                  </div>
+                </li>
+                <li class="small small1 goods2">
+                  <div class="buy_btn"><a href="goods.html#griptok">buy now</a></div>
+                  <img src="img/main/goods2.png" alt="goods2">
+                  <div class="info">
+                    <p class="tit">그립톡</p>
+                    <p class="price">15,000원</p>
+                  </div>
+                </li>
+                <li class="small small2 goods3">
+                  <div class="buy_btn"><a href="goods.html#griptok">buy now</a></div>
+                  <img src="img/main/goods3.png" alt="goods3">
+                  <div class="info">
+                    <p class="tit">그립톡</p>
+                    <p class="price">15,000원</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="clothes ">
+              <ul>
+                <li class="big goods7">
+                  <div class="buy_btn"><a href="goods.html#eco_bag">buy now</a></div>
+                  <img src="img/main/goods7.png" alt="goods1">
+                  <div class="info">
+                    <p class="tit">티셔츠</p>
+                    <p class="price">21,000원</p>
+                  </div>
+                </li>
+                <li class="big goods8">
+                  <div class="buy_btn"><a href="goods.html#eco_bag">buy now</a></div>
+                  <img src="img/main/goods8.png" alt="goods1">
+                  <div class="info">
+                    <p class="tit">에코백</p>
+                    <p class="price">21,000원</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="etc ">
+              <ul>
+                <li class="big goods4">
+                  <div class="buy_btn"><a href="goods.html#key_ring">buy now</a></div>
+                  <img src="img/main/goods4.png" alt="goods1">
+                  <div class="info">
+                    <p class="tit">캐릭터 키링</p>
+                    <p class="price">8,500원</p>
+                  </div>
+                </li>
+                <li class="small small1 goods5">
+                  <div class="buy_btn"><a href="goods.html#key_ring">buy now</a></div>
+                  <img src="img/main/goods5.png" alt="goods2">
+                  <div class="info">
+                    <p class="tit">단체 키링</p>
+                    <p class="price">8,500원</p>
+                  </div>
+                </li>
+                <li class="small small2 goods6">
+                  <div class="buy_btn"><a href="goods.html#tumbler">buy now</a></div>
+                  <img src="img/main/goods6.png" alt="goods3">
+                  <div class="info">
+                    <p class="tit">텀블러</p>
+                    <p class="price">21,000원</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul><!-- //.tab_con -->
+        </div><!-- //.goods_list -->
+      </div><!-- //.container -->
+    </section><!-- //.goods -->
+
+    <section class="motivation">
+      <div class="banner">
+        <div class="container">
+          <p data-aos="fade-right" data-aos-duration="2000">PEAT와 함께 야생 동물들을 키워줄 준비가 되었나요?</p>
+          <p data-aos="fade-left" data-aos-duration="2000">저희와 함께 합시다!</p>
+        </div>
+      </div><!-- //.banner -->
+
+    </section><!-- //.motivation -->
+
+    <footer>
+      <div class="count">
+        <div class="top">
+          <div class="line"></div>
+          <p>PEAT와 함께 하는 사람들</p>
+        </div><!-- //.top -->
+        <div class="bottom">
+          <p class="count4"></p>
+        </div>
+      </div><!-- //.count -->
+      <div class="phrase">
+        <strong>[ LET’S PROTECT ]</strong>
+      </div><!-- //.phrase -->
+      <div class="container">
+        <div class="info">
+          <div class="top">
+            <h1><img src="img/common/logo_f.png" alt="footer logo" class="logo_f"></h1>
+            <ul class="menu">
+              <li><a href="about.html">단체 소개</a></li>
+              <li><a href="animals.html">멸종 위기 동물</a></li>
+              <li><a href="donate.html">후원과 참여</a></li>
+              <li><a href="goods.html">굿즈</a></li>
+            </ul><!-- //.menu -->
+            <ul class="sns">
+              <li><a href="#"><img src="img/common/sns_facebook.svg" alt="sns_facebook"></a></li>
+              <li><a href="#"><img src="img/common/sns_instagram.svg" alt="sns_instagram"></a></li>
+              <li><a href="#"><img src="img/common/sns_youtube.svg" alt="sns_youtube"></a></li>
+              <li><a href="#"><img src="img/common/sns_x.svg" alt="sns_x"></a></li>
+            </ul>
+          </div>
+          <div class="bottom">
+            <ul>
+              <li class="right"><a href="#">개인정보 처리방침</a></li>
+              <li class="right"><a href="#">서비스 이용약관</a></li>
+              <li class="right">대표자 : 홍민주</li>
+              <li class="left">T. 02 123-4567</li>
+              <li class="right">사업자등록번호 : 024-07-10310</li>
+              <li class="left">주소 : 서울특별시 서초구 서초대로77길 41 (대동2빌딩 12층)</li>
+            </ul>
+          </div>
+        </div><!-- //.info -->
+        <div class="name_copy">
+          <p class="name">protecting endangered animals together</p>
+          <p class="copy">© 2024. PEAT KOREA ALL RIGHTS RESERVED. </p>
+        </div>
+      </div><!-- //.container -->
+    </footer>
+  </div><!-- //.wrap -->
+</body>
+
+</html>
