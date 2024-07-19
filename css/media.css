@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@media screen and (max-width:1600px) {
+
+    .photo {
+        left: 150px;
+    }
+
+    .photo img {
+        width: 550px;
+    }
+
+    .me_introduce {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .typewriter {
+        font-size: 3em;
+        line-height: 1.5;
+    }
+
+    /* menu1 default */
+    .menu1 h3 img{
+        width: 250px;
+    }
+
+    .menu2 h3 img {
+        width: 150px;
+    }
+    .menu2 .skycircle img{
+        width: 400px;
+    }
+
+    .menu2 .platform{
+        width: 300px;
+        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    /* menu3 */
+    .menu3 .platform{
+        width: 300px;
+        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    /* menu4 */
+    .menu4 h3 img{
+        width: 200px;
+    }
+    .menu4 .platform{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .photo img {
+        width: 450px;
+    }
+    .intro {
+        flex-direction: column;
+        height: auto;
+    }
+    .intro .intro_left{
+        width: 60%;
+        border-bottom: 1px solid rgba(241, 112, 107, 0.7);
+        border-right:0;
+        padding: 100px 0;
+    }
+    .intro .intro_right{
+        width: 90%;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .intro .intro_right div h3{
+        width: 40%;
+        text-align: center;
+    }
+    .index{
+        height: auto;
+    }
+    .index>h2{
+    }
+    .index .contents_box{
+        width: 100%;
+        margin: 0 auto;
+      }
+    .index .contents{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .index .contents h3{
+        text-align: center;
+    }
+    .index .contents .index_textbox{
+        flex-direction: column;
+    }
+    .index .contents .index_box{
+        text-align: center;
+        width: 100%;
+    }
+    .index .contents p:nth-child(2),.index .contents p:nth-child(3){
+        width: 100%;
+        justify-content: center;
+    }
+} 
+@media screen and (max-width: 1024px){
+    
+}
